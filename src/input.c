@@ -1077,8 +1077,8 @@ int ReadInput(char *input)
     // sampling the radial distribution function (RDF)
     ComputeRDF[i]=FALSE;
     WriteRDFEvery[i]=5000;
-    RDFHistogramSize[i]=500;
-    RDFRange[i]=12.0;
+    RDFHistogramSize[i]=1000;
+    RDFRange[i]=30.0;
 
     // sampling the projected lengths
     ComputeProjectedLengths[i]=FALSE;
